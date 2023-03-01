@@ -9,12 +9,12 @@ export const HeroPage = () => {
   const hero = useMemo(() => getHeroById(id), [id]);
 
   const onNavigateBack = () => {
-    const urlValues = id.split("-");
-    const url = urlValues[0]; //dc or marvel
+    // const urlValues = id.split("-");
+    // const url = urlValues[0]; //dc or marvel
 
-    // navigate(-1);
+    navigate(-1);
 
-    navigate(`/${url}`, { replace: true });
+    // navigate(`/${url}`, { replace: true });
   };
 
   if (!hero) {
