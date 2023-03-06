@@ -1,5 +1,6 @@
 {
   "name": "heroes-spa",
+  "homepage": "https://oliverosa.github.io/heroes-spa/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
