@@ -15,7 +15,7 @@ export const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  const heroImageUrl = `/assets/heroes/${id}.jpg`;
+  const heroImageUrl = `https://oliverosa.github.io/Heroes-SPA/assets/heroes/${id}.jpg`;
 
   //const charactersByHero = <p>{characters}</p>;
 
